@@ -39,7 +39,7 @@ python loop_cp.py
 
 To run the encryption process for a test image:
 ```
-python ec.py
+python encdec.py
 ```
 Give the path to your image in the interactive bar. You can then visualize the encrypted and decrypted images.
 
