@@ -14,9 +14,6 @@ This project demonstrates image encryption using chaotic systems such as the Rö
 - [Results](#results)
   - [Example Image](#example-image)
 - [Phase Portraits](#phase-portraits)
-- [Methodology](#methodology)
-- [Contributing](#contributing)
-- [License](#license)
 
 ## Introduction
 
@@ -28,14 +25,18 @@ In this project, we utilize chaotic systems—specifically the Rössler, Lorenz,
 
 To run the project, run the following lines on terminal.
 '''
+
 git clone https://github.com/shreya-bhatt27/encryption-with-chaos
 cd encryption-with-chaos
 mkdir tiny-imagenet-200
+
 '''
 Then download the Tiny Image Dataset from their official web page, copy and paste the required number of images (we took 1000 images for our study) from the dataset into the tiny-imagenet-200 folder created in the previous step.
 Then to run the encryption code over the test images, and calculate the required metrics, run the following lines on terminal.
 '''
+
 python loop_cp.py
+
 '''
 
 ### Running code for a Test Image
