@@ -32,9 +32,7 @@ mkdir tiny-imagenet-200
 Then download the Tiny Image Dataset from their official web page, copy and paste the required number of images (we took 1000 images for our study) from the dataset into the tiny-imagenet-200 folder created in the previous step.
 Then to run the encryption code over the test images, and calculate the required metrics, run the following lines on terminal.
 ```
-
 python loop_cp.py
-
 ```
 
 ### Running code for a Test Image
