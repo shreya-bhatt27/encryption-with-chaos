@@ -57,4 +57,4 @@ Phase portraits for the Rössler, Lorenz, and Langford systems have been plotted
 
 ## Bifurcation Diagrams
 
-In addition to this, we also plotted the Bifurcation Diagrams for Rössler and Lorenz systems, along with stability analysis done extensively for the Rössler system.
+In addition to this, we also plotted the Bifurcation Diagrams for Rössler and Lorenz systems using Mathematica, along with stability analysis done extensively for the Rössler system.
