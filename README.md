@@ -51,7 +51,10 @@ Here's an example of an encrypted image using the Rössler chaotic system:
 
 ![Encrypted Image](example_encrypted_image.jpg)
 
-## Phase Portraits
+## Phase Portraits and Bifurcation Diagrams
 
-Phase portraits for the Rössler, Lorenz, and Aizawa systems have been plotted using the RK4 method. These phase portraits provide insights into the behavior of the chaotic systems used for encryption. The code for the plots is in the phase_portraits.ipynb file
+Phase portraits for the Rössler, Lorenz, and Langford systems have been plotted using the RK4 method. These phase portraits provide insights into the behavior of the chaotic systems used for encryption. The code for the plots is in the phase_portraits.ipynb file.
 
+## Bifurcation Diagrams
+
+In addition to this, we also plotted the Bifurcation Diagrams for Rössler and Lorenz systems, along with stability analysis done extensively for the Rössler system.
