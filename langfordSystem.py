@@ -20,7 +20,7 @@ def langford_key(xinit, yinit, zinit, num_steps):
     for i in range(num_steps):
         xs[i + 1] = xs[i] + ((zs[i] - b) * xs[i] - d * ys[i]) * dt
         ys[i + 1] = ys[i] + (d * xs[i] + (zs[i] - b) * ys[i]) * dt
-        zs[i + 1] = zs[i] + (c + a * zs[i] - zs[i]**3 / 3 - xs[i]**2 + f * zs[i] * xs[i]**3) * dt
+        zs[i + 1] = zs[i] + (c + a * zs[i] - zs[i]**3 / 3 - (xs[i]**2 + ys[i]**2)*(1 + e*zs[i]) + f * zs[i] * xs[i]**3) * dt
 
     # fig = plt.figure()
     # ax = fig.gca(projection='3d')
@@ -28,14 +28,3 @@ def langford_key(xinit, yinit, zinit, num_steps):
     # plt.show()
 
     return xs, ys, zs
-
-# # Example usage:
-# xinit, yinit, zinit = 0.1, 0.1, 0.1
-# num_steps = 10000
-# xs, ys, zs = langford_system(xinit, yinit, zinit, num_steps)
-
-# # Plotting
-# fig = plt.figure()
-# ax = fig.gca(projection='3d')
-# ax.plot(xs, ys, zs)
-# plt.show()
